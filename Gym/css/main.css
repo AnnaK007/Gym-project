@@ -1,0 +1,492 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, sans-serif;
+    line-height: 1.5;
+  }
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+     width: 100%;
+     max-width: 1288px;
+     margin: 0 auto;
+     padding: 0 24px;
+ }
+
+
+ h5 {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+h4 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 5px;
+
+}
+
+
+/* ------- header --------- */
+
+ .header-container {
+     width: 100%;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     gap: 40px;
+ } 
+
+ .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.header-address-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.tel-icon {
+    float: left;
+    margin-right: 10px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+    width: 100%;
+    background-color: rgb(3, 11, 24);
+    background-image: url(../images/man2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    height: 400px;
+    box-shadow: 0 0 10px #000;
+}
+
+.main-title {
+    display: block;
+    position: absolute;
+    background-color: rgb(11, 3, 22);
+    font-size: x-large;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    color: white;
+    left: 50%;
+    transform: translateX(-90%);
+    
+}
+
+
+
+
+/* ------- welcome section --------- */
+
+
+.welcome-section {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  padding: 60px;
+  max-width: 1300px;
+  margin: auto;
+  text-align: justify;
+
+}
+
+
+.welcome-image {
+   width: 100%;  
+}
+
+.welcome-image.section {
+    box-shadow: 5px 6px 21px 2px rgba(0,0,0,0.76);
+    border: 4px solid white;
+}
+
+
+.welcome-text h2 {
+  font-size: 39px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.welcome-text h2::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 3px;
+  background-color: black;
+  margin-top: 10px;
+}
+
+.welcome-text p {
+  font-size: 19px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+
+
+/* ------- advantage section --------- */
+
+
+.advantage-section {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  padding: 0 60px;
+  max-width: 1300px;
+  margin: auto;
+  text-align: justify;
+  margin-top: 0;
+}
+
+
+.advantage-image {
+   width: 300px;  
+}
+
+
+.advantage-image.section {
+    box-shadow: 5px 6px 21px 2px rgba(0,0,0,0.76);
+    border: 4px solid white;
+}
+
+
+.advantage-text h2 {
+  font-size: 39px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.advantage-text h2::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 3px;
+  background-color: black;
+  margin-top: 10px;
+}
+
+.advantage-text p {
+  font-size: 19px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+
+
+
+/* ------- plan section --------- */
+
+
+
+.plan-section {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    margin: 30px 5px;
+    width: 100%;
+    background-image: url(../images/woman2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 20%;
+    height: 400px;
+}
+
+
+.plan-section-title {
+    display: block;
+    background-color: #00000033;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 50%;
+    height: auto;
+}
+
+.plan-section-container {
+  display: flex;
+  padding: 0;
+  margin: auto; 
+  padding: 0; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  position: relative;
+  gap: 25px;
+  text-align: center;
+}
+
+.plan-item-image {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/* ------- footer --------- */
+
+
+footer {
+  margin-top: 30px;
+  gap: 40px;
+  background-color: #09014bd9;
+  color: white;
+  padding: 40px;
+  flex-wrap: wrap; 
+}
+
+
+.footer {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-contacts {
+  flex: 1;
+  position: relative;
+}
+
+
+.footer-contacts li {
+  flex: 1;
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+  min-width: 250px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+
+}
+
+.footer-map {
+  flex: 1;
+  width: 100%;
+}
+
+.contact-section-map {
+    padding: 30px 0;
+    height: 200px;
+    margin: 0;
+    border-radius: 16px;
+    border: none;
+   width: 700px;
+   width: 100%;
+}
+
+.footer-address-link {
+  text-decoration: none;
+  font-style: normal;
+  color: white;
+}
+
+.footer-address-list {
+  padding-left: 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  border-top: 1px #777 solid;
+  flex-wrap: wrap;
+}
+
+.footer-bottom a {
+  text-decoration: underline;
+  color: white;
+
+}
+
+
+
+
+/* ------- media --------- */
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .welcome-section, .advantage-section, .plan-section {
+    padding: 30px 20px;
+    gap: 20px;
+  }
+  
+  .welcome-image, .advantage-image {
+    width: 300px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .welcome-text h2, .advantage-text h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .welcome-text h2::after, .advantage-text h2::after {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .welcome-text p, .advantage-text p {
+    font-size: 15px;
+  }
+  
+  .plan-section-title h3 {
+    font-size: 18px;
+  }
+  
+  .logo img {
+    width: 60%;
+    height: auto;
+  }
+  
+  
+  .title {
+    font-size: 25px;
+  }
+  
+  .plan-section-container {
+    align-items: center;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+    
+  }
+  
+  .plan-item-title {
+    font-size: 18px;
+  }
+  
+  .plan-item-descr {
+    font-size: 14px;
+  }
+  
+}
+
+
+@media (max-width: 768px) {
+  .welcome-section, .advantage-section, .plan-section, .footer {
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  
+  .header-nav {
+    gap: 0;
+  }
+  
+  .welcome-image, .advantage-image {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+    /* flex-shrink: 0; */
+  }
+  
+  .welcome-text h2, .advantage-text h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .welcome-text h2::after, .advantage-text h2::after {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .welcome-text p, .advantage-text p {
+    font-size: 15px;
+  }
+  
+  .plan-section-container {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .main-title .title {
+    font-size: 20px;
+  }
+  
+  .plan-section-title h3 {
+    font-size: 16px;
+  }
+  
+  .footer h4 {
+    font-size: 20px;
+  }
+  
+  .footer-address-list {
+    font-size: 14px;
+  }
+
+  .socials {
+    font-size: 12px;
+  }
+  
+  .contact-section-map {
+    padding: 0;
+  }
+  
+  .logo img {
+    width: 60%;
+    height: auto;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-map {
+    order: 2;
+  }
+
+  .footer-contacts {
+    order: 1;
+  }
+}
+
+
+
+
+
+
